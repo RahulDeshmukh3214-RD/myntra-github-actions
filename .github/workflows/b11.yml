@@ -58,7 +58,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: RahulDeshmukh3214-RD/gitopsinfra
-          token: ${{ secrets.GITOPS_TOKEN }}
+          token: ${{ secrets.GITOPS_TOKEN}}
           ref: main
 
       - name: Update deployment.yaml with new ECR image
